@@ -15,8 +15,10 @@
     This is a python program that finds the number of weekdays in the month and year the user enters.
     The program uses the NumPy library and gets the number of weekdays in the month using the 
     busday_count method in the NumPy library.
-
     
+   https://user-images.githubusercontent.com/46082842/123254513-6adfe200-d4f7-11eb-955f-8e04d474717d.mp4
+
+
     
 
 

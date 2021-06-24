@@ -25,6 +25,8 @@
     The program also prints out the memory size of the array in bytes 
     by finding the product of the size of the array and the size of one array element.
 
+   https://user-images.githubusercontent.com/46082842/123261564-95359d80-d4ff-11eb-8dae-f77f6aed633a.mp4
+
 
     
 

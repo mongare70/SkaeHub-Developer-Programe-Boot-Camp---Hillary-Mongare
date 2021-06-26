@@ -1,16 +1,26 @@
-orders = {
-    'pizza':200,
-    'potatoes':2000,
-    'chicken':500,
-    'soda':1000,
-    'cake':100,
-    'biscuits':200
-    
+# list of dictionaries
+student_one = {
+    "name"   : "Hillary",
+    "age"    : 23,
+    "height" : 5.8
 }
 
-# Sort orders dictionary by value (key=lambda x:x[1]) in ascending order (reverse=False)
-sort_orders = sorted(orders.items(), key=lambda x:x[1], reverse=False)
+student_two = {
+    "name"   : "Lydia",
+    "age"    : 20,
+    "height" : 5.4
+}
 
-# print sorted dictionary
-for x,y in sort_orders:
-    print(x, y)
+student_three = {
+    "name"   : "Kihara",
+    "age"    : 24,
+    "height" : 5.6
+}
+
+
+students = [student_one, student_two, student_three]
+
+# sort students according to age in ascending order
+sorted_students = sorted(students, key=lambda x:x['age'], reverse=False)
+
+print(sorted_students)

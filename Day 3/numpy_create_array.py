@@ -2,18 +2,13 @@ import numpy as np
 
 arr = []
 
-a = int(input("Enter an integer value: "))
+# number of elements the user wants to input
+number = int(input("Enter number of integer elements you want to input: "))
 
-b = int(input("Enter an integer value: "))
+for i in range(0, number):
+    element = int(input([]))
+    arr=np.append(arr,element)
 
-c = int(input("Enter an integer value: "))
-
-d = int(input("Enter an integer value: "))
-
-e = int(input("Enter an integer value: "))
-
-
-arr = np.append(arr, [a, b, c, d, e])
 
 print(arr)
 
